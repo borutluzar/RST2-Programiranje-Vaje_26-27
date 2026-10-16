@@ -1,8 +1,4 @@
 ﻿using MyLibrary;
-using System;
-using System.Reflection.Metadata;
-using System.Runtime.Intrinsics.Arm;
-using System.Runtime.Intrinsics.X86;
 
 namespace RST2_Programiranje_Vaje_26_27
 {
@@ -20,7 +16,7 @@ namespace RST2_Programiranje_Vaje_26_27
     }
 
     /// <summary>
-    /// Rešitve vaj - 6. oktober 2025
+    /// Rešitve vaj - 15. oktober 2026
     /// </summary>
     public class Vaje_02
     {
