@@ -197,6 +197,31 @@
                         }
                         break;
                     }
+
+                case Sections.Vaje_06:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_06_Naloge>())
+                        {
+                            case Vaje_06_Naloge.Naloga361:
+                                {
+                                    Vaje_06.Naloga361();
+                                }
+                                break;
+
+                            case Vaje_06_Naloge.Naloga364:
+                                {
+                                    Vaje_06.Naloga364();
+                                }
+                                break;
+
+                            case Vaje_06_Naloge.Naloga371:
+                                {
+                                    Vaje_06.Naloga371();
+                                }
+                                break;
+                        }
+                        break;
+                    }
             }
             Console.Read();
         }
