@@ -1,20 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using MyLibrary;
-using System.Drawing;
-using System.Net.Sockets;
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Reflection.Metadata;
-using System.Runtime.ConstrainedExecution;
-using System.Runtime.Intrinsics.Arm;
-using System.Runtime.Intrinsics.X86;
-using System.Security.Cryptography;
-using System.Text;
-using System.Xml.Linq;
-using static System.Net.WebRequestMethods;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace RST2_Programiranje_Vaje_26_27
+﻿namespace RST2_Programiranje_Vaje_26_27
 {
     public enum Vaje_06_Naloge
     {

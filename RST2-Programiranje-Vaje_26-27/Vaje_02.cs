@@ -249,7 +249,7 @@ namespace RST2_Programiranje_Vaje_26_27
                 Console.WriteLine($"{value}. {section}");
             }
 
-            byte odgovor = byte.Parse(Console.ReadLine());
+            byte odgovor = byte.Parse(Console.ReadLine() ?? "");
             Console.WriteLine($"Ime ocene je: {(Grades)odgovor}");
         }
 
@@ -277,7 +277,7 @@ namespace RST2_Programiranje_Vaje_26_27
             List<string> allwords = new List<string>();
             while (!sr.EndOfStream)
             {
-                string line = sr.ReadLine();
+                string line = sr.ReadLine() ?? "";
                 string[] words = line.Split(" ");
                 allwords.AddRange(words);
             }

@@ -10,7 +10,7 @@ namespace RST2_Programiranje_Vaje_26_27
         /// Funkcija izpiše možne sekcije in prebere izbiro uporabnika.
         /// Tip enumeracije ji podamo preko parametra generičnega tipa T.
         /// </summary>
-        public static T ChooseSection<T>() where T : Enum
+        public static T? ChooseSection<T>() where T : Enum
         {
             // Izpis sekcij za izbiro 
             int i = 1;
@@ -27,7 +27,7 @@ namespace RST2_Programiranje_Vaje_26_27
             Console.WriteLine("\n--\t--\t--\t--");
             Console.Write($"Choose {typeof(T).Name} to run: ");
 
-            string input = Console.ReadLine();
+            string input = Console.ReadLine() ?? "";
             bool isFormatCorrect = int.TryParse(input, out int chosen);
             if (!isFormatCorrect)
             {

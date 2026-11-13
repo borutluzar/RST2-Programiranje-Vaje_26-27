@@ -54,7 +54,7 @@
                             case Vaje_02_Naloge.Naloga134:
                                 {
                                     int k = 100;
-                                    Vaje_02.Naloga134(100);
+                                    Vaje_02.Naloga134(k);
                                 }
                                 break;
                             case Vaje_02_Naloge.Naloga135:
@@ -217,6 +217,37 @@
                             case Vaje_06_Naloge.Naloga371:
                                 {
                                     Vaje_06.Naloga371();
+                                }
+                                break;
+                        }
+                        break;
+                    }
+
+                case Sections.Vaje_07:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_07_Naloge>())
+                        {
+                            case Vaje_07_Naloge.Naloga372:
+                                {
+                                    Vaje_07.Naloga372();
+                                }
+                                break;
+
+                            case Vaje_07_Naloge.Naloga374:
+                                {
+                                    Vaje_07.Naloga374();
+                                }
+                                break;
+
+                            case Vaje_07_Naloge.Naloga375:
+                                {
+                                    Vaje_07.Naloga375();
+                                }
+                                break;
+
+                            case Vaje_07_Naloge.Naloga381:
+                                {
+                                    Vaje_07.Naloga381();
                                 }
                                 break;
                         }
