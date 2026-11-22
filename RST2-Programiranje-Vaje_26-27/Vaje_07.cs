@@ -16,7 +16,7 @@ namespace RST2_Programiranje_Vaje_26_27
     }
 
     /// <summary>
-    /// Rešitve vaj - 4. november 2026
+    /// Rešitve vaj - 12. november 2026
     /// </summary>
     public class Vaje_07
     {

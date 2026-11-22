@@ -1,4 +1,6 @@
-﻿namespace RST2_Programiranje_Vaje_26_27
+﻿using RST2_Programiranje_Vaje_26_27.Vaje08;
+
+namespace RST2_Programiranje_Vaje_26_27
 {
     internal class Program
     {
@@ -248,6 +250,60 @@
                             case Vaje_07_Naloge.Naloga381:
                                 {
                                     Vaje_07.Naloga381();
+                                }
+                                break;
+                        }
+                        break;
+                    }
+
+                case Sections.Vaje_08:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_08_Naloge>())
+                        {                            
+                            case Vaje_08_Naloge.Naloga411:
+                                {
+                                    Vaje_08.Naloga411();
+                                }
+                                break;
+                            case Vaje_08_Naloge.Naloga415:
+                                {
+                                    Vaje_08.Naloga415();
+                                }
+                                break;
+                            case Vaje_08_Naloge.Naloga511:
+                                {
+                                    Vaje_08.Naloga511();
+                                }
+                                break;
+                            case Vaje_08_Naloge.Naloga513:
+                                {
+                                    Vaje_08.Naloga513();
+                                }
+                                break;
+                        }
+                        break;
+                    }
+
+                case Sections.Vaje_09:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_09_Naloge>())
+                        {
+                            case Vaje_09_Naloge.Naloga5XX:
+                                {
+                                    //Vaje_09.Naloga5XX();
+                                }
+                                break;
+                        }
+                        break;
+                    }
+
+                case Sections.Vaje_10:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_10_Naloge>())
+                        {
+                            case Vaje_10_Naloge.Naloga6XX:
+                                {
+                                    //Vaje_10.Naloga6XX();
                                 }
                                 break;
                         }
