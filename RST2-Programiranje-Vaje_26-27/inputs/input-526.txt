@@ -1,0 +1,13 @@
+Računalniško programiranje je dejavnost, katere cilj je ustvarjanje novih računalniških programov ali njihovih sestavnih delov na temelju določenih pravil. Programiranje oziroma implementacija abstraktnega algoritma je le ena izmed faz procesa razvoja programske opreme. Kot sinonim za dejavnost računalniškega programiranja se v novejšem času uveljavlja tudi beseda »kodiranje«, čeprav ima ta izraz v računalništvu terminološko drug pomen. Računalniški programi so napisani v izvorni kodi določenega programskega jezika, pri delu pa si programer lahko pomaga z ustreznimi razvojnimi orodji.
+
+Dejavnost računalniškega programiranja je strokovno področje računalniške vede, ki spada pod okrilje razvoja programske opreme. Medtem, ko se teorija programskih jezikov ukvarja z raziskovanjem pristopov, s katerimi se opisuje računanje oziroma komputacije, programiranje aplikativno uporabi računalniške programske jezike za reševanje določenih problemov. Snovanje programske opreme je tudi interdisciplinarno področje in vsebuje elemente ekonomije, organizacije poslovanja, znanosti, umetnosti, matematike in tehnike. Programira se lahko v različnih programskih jezikih, ki so glede na svoj abstrakcijski nivo kategorizirani od prve do pete generacije, npr. java, COBOL, paskal, zbirni jezik, prolog, C#, BASIC, C, C++, Python, JavaScript in tako dalje.
+
+Pri razvoju programske opreme je znanih mnogo razvojnih metodologij. Metodologije so sheme oziroma modeli, ki se uporabljajo za načrtovanje, strukturiranje in nadzorovanje procesa razvoja programske opreme. Gre za način oziroma slog reševanja določenih problemov na področju programskega inženirstva. Programske metodologije se ne sme mešati s programsko paradigmo, ki je osnovni slog računalniškega programiranja. Najbolj znane razvojne metodologije so modeli vodnega slapa (waterfall model), spirale (spiral model), ekstremnega programiranja (extreme programming - XP), RUP, RAP (angleška kratica za Rapid Application Development), itd.
+
+Faze razvoja programske opreme:
+
+specifikacija oz. opis problema,
+analiza problema,
+načrtovanje algoritma,
+kodiranje oziroma implementacija programa,
+preskušanje in vzdrževanje programa.

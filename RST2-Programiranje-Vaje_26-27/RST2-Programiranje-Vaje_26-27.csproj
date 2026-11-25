@@ -12,4 +12,10 @@
     <ProjectReference Include="..\MyLibrary\MyLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="inputs\input-526.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

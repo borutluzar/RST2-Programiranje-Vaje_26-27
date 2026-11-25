@@ -288,9 +288,29 @@ namespace RST2_Programiranje_Vaje_26_27
                     {
                         switch (InterfaceFunctions.ChooseSection<Vaje_09_Naloge>())
                         {
-                            case Vaje_09_Naloge.Naloga5XX:
+                            case Vaje_09_Naloge.Naloga521:
                                 {
-                                    //Vaje_09.Naloga5XX();
+                                    Vaje_09.Naloga521();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga524:
+                                {
+                                    Vaje_09.Naloga524();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga525:
+                                {
+                                    Vaje_09.Naloga525();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga526:
+                                {
+                                    Vaje_09.Naloga526("inputs/input-526.txt");
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga528:
+                                {
+                                    Vaje_09.Naloga528();
                                 }
                                 break;
                         }
